@@ -1,0 +1,23 @@
+
+
+<main class="container py-5">  
+    <h2 class="mb-5">Les produits de la catégorie <?php echo $data ['category'] ?></h2>
+
+    <section class="row">
+        <?php foreach ($data['products'] as $product)
+        { ?>
+        <article class="card col-3 mx-2 p-5">  
+            <header>  
+                <h3 class="card-title"><?php echo $product->getName() ?></h3>  
+            </header>  
+            <p class="card-text">  
+                <?php echo $product->getDescription() ?>  
+            </p>  
+            <footer>  
+                <a href="/res03-projet-final/produits/<?php echo $product->getSlug() ?>" class="btn btn-info"><?php echo $product->getName() ?></a>  
+            </footer>  
+        </article>
+        <?php } ?>
+
+    </section>  
+</main>
