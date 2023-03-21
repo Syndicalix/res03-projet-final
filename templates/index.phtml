@@ -1,0 +1,22 @@
+
+<main class="container py-5">  
+    <h2 class="mb-5">Nos catégories de films</h2>  
+    <section class="row">
+        <?php
+        foreach ($data['categories'] as $category)
+        { ?>
+        <article class="card col-3 mx-2 p-5">  
+            <header>  
+                <h3 class="card-title"><?= $category->getName() ?></h3>  
+            </header>  
+            <p class="card-text">  
+                <?= $category->getDescription() ?>  
+            </p>  
+            <footer>  
+                <a href="/res03-projet-final/categories/<?= $category->getSlug() ?>" class="btn btn-primary">Les films de la catégorie <?= $category->getName() ?></a>  
+            </footer>  
+        </article>  
+        
+        <?php } ?>
+    </section>  
+</main>

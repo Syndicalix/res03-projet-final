@@ -15,6 +15,7 @@ require "managers/UserManager.php";
 require "controllers/AbstractController.php";  
 require "controllers/ShopController.php";
 require "controllers/AuthController.php";
+
   
 // services  
 require "services/Router.php";
