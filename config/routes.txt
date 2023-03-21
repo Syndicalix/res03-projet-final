@@ -1,0 +1,78 @@
+La route pour afficher la liste des catégories :  
+  
+/  
+  
+La route pour afficher les produits d'une catégorie :  
+  
+/categories/:slug-categorie  
+  
+  
+La route pour afficher la liste des produits :  
+  
+/produits  
+  
+  
+La route pour afficher le détail d'un produit :  
+  
+/produits/:slug-produit
+
+La route pour afficher la liste des catégories :  
+  
+/  
+  
+La route pour afficher les produits d'une catégorie :  
+  
+/categories/:slug-categorie  
+  
+  
+La route pour afficher la liste des produits :  
+  
+/produits  
+  
+  
+La route pour afficher le détail d'un produit :  
+  
+/produits/:slug-produit  
+  
+  
+La route qui affiche le formulaire d'inscription  
+  
+/creer-un-compte  
+  
+  
+La route qui créé un utilisateur (l'action du formulaire d'inscription)  
+  
+/check-creer-un-compte  
+  
+  
+La route qui affiche le formulaire de connexion  
+  
+/connexion  
+  
+  
+La route qui vérifie la connexion (l'action du formulaire de connexion)  
+  
+/check-connexion
+
+
+
+
+/creer-produit
+
+/check-creer-produit
+
+/creer categorie
+
+/check-creer-categorie
+
+/modifier-produit /:slug-produit
+
+/check-modifier-produit /:slug-produit
+
+/modifier-categorie /:slug-categorie
+
+/check-modifier-categorie /:slug-categorie
+
+/supprimer-produit /:slug-produit
+
+/supprimer-categorie /:slug-categorie
